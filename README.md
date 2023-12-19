@@ -47,6 +47,7 @@ chmod +x *
         -n, --nosslcheck   Do not verify SSL Certificate                    (default: True)
         -h, --help         Shows this help
 ```
+![App Screenshot](https://github.com/WHITEDH4CKER/MRDDOS/blob/main/Screenshots/ddos_1.png)
    #### DDOS_2 
 ```
         USAGE: python MRDDOS_2.py -t [target] -p [port] -t [number threads]
@@ -67,6 +68,7 @@ chmod +x *
 Example:
     python MRDDOS_2.py -d www.example.com -p 80 -T 2000 -Pyslow
 ```
+![App Screenshot](https://github.com/WHITEDH4CKER/MRDDOS/blob/main/Screenshots/ddos_2.png)
 ## License
 This software is distributed under the GNU General Public License version 3 (GPLv3)
 
