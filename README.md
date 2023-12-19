@@ -35,7 +35,7 @@ chmod +x *
 
 ## Usage
    #### DODOS_1
-        ***
+   ```
         USAGE: python MRDDOS_1.py <url> [OPTIONS]
    OPTIONS:
         Flag           Description                     Default
@@ -46,9 +46,9 @@ chmod +x *
         -d, --debug        Enable Debug Mode [more verbose output]          (default: False)
         -n, --nosslcheck   Do not verify SSL Certificate                    (default: True)
         -h, --help         Shows this help
-         ***
+```
    #### DDOS_2 
-        ***
+```
         USAGE: python MRDDOS_2.py -t [target] -p [port] -t [number threads]
    OPTIONS:
         Flag           Description
@@ -66,7 +66,7 @@ chmod +x *
 
 Example:
     python MRDDOS_2.py -d www.example.com -p 80 -T 2000 -Pyslow
-  ***
+```
 ## License
 This software is distributed under the GNU General Public License version 3 (GPLv3)
 
