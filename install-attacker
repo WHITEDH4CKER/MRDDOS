@@ -1,0 +1,86 @@
+#!/usr/bin/env python3
+import os
+from colorama import init, Fore, Style
+
+# Initialize colorama
+init()
+
+C = Fore.CYAN  # Use colorama's Fore.CYAN for the C variable
+W = Fore.WHITE  # Use colorama's Fore.WHITE for the W variable
+B = Style.BRIGHT  # Use colorama's Style.BRIGHT for bold formatting
+
+logo = f"""
+{B}{C}     
+
+<!--  _____                                                                                                                                     _____  -->
+<!-- ( ___ )                                                                                                                                   ( ___ ) -->
+<!--  |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   |  -->
+<!--  |   | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |   |  -->
+<!--  |   | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |   |  -->
+<!--  |   | XMMMMMMMMXXXXXXXXXXXXXXXMMMMMMMMRRRRRRRRRRRRRRRRRXXXDDDDDDDDDDDDDXXXXXXDDDDDDDDDDDDDXXXXXXXXXXXXXOOOOOOOOOXXXXXXXXSSSSSSSSSSSSSSSXX |   |  -->
+<!--  |   | XM:::::::MXXXXXXXXXXXXXM:::::::MR::::::::::::::::RXXD::::::::::::DDDXXXD::::::::::::DDDXXXXXXXXOO:::::::::OOXXXXSS:::::::::::::::SX |   |  -->
+<!--  |   | XM::::::::MXXXXXXXXXXXM::::::::MR::::::RRRRRR:::::RXD:::::::::::::::DDXD:::::::::::::::DDXXXXOO:::::::::::::OOXS:::::SSSSSS::::::SX |   |  -->
+<!--  |   | XM:::::::::MXXXXXXXXXM:::::::::MRR:::::RXXXXXR:::::RDDD:::::DDDDD:::::DDDD:::::DDDDD:::::DXXO:::::::OOO:::::::OS:::::SXXXXXSSSSSSSX |   |  -->
+<!--  |   | XM::::::::::MXXXXXXXM::::::::::MXXR::::RXXXXXR:::::RXXD:::::DXXXXD:::::DXD:::::DXXXXD:::::DXO::::::OXXXO::::::OS:::::SXXXXXXXXXXXXX |   |  -->
+<!--  |   | XM:::::::::::MXXXXXM:::::::::::MXXR::::RXXXXXR:::::RXXD:::::DXXXXXD:::::DD:::::DXXXXXD:::::DO:::::OXXXXXO:::::OS:::::SXXXXXXXXXXXXX |   |  -->
+<!--  |   | XM:::::::M::::MXXXM::::M:::::::MXXR::::RRRRRR:::::RXXXD:::::DXXXXXD:::::DD:::::DXXXXXD:::::DO:::::OXXXXXO:::::OXS::::SSSSXXXXXXXXXX |   |  -->
+<!--  |   | XM::::::MXM::::MXM::::MXM::::::MXXR:::::::::::::RRXXXXD:::::DXXXXXD:::::DD:::::DXXXXXD:::::DO:::::OXXXXXO:::::OXXSS::::::SSSSSXXXXX |   |  -->
+<!--  |   | XM::::::MXXM::::M::::MXXM::::::MXXR::::RRRRRR:::::RXXXD:::::DXXXXXD:::::DD:::::DXXXXXD:::::DO:::::OXXXXXO:::::OXXXXSSS::::::::SSXXX |   |  -->
+<!--  |   | XM::::::MXXXM:::::::MXXXM::::::MXXR::::RXXXXXR:::::RXXD:::::DXXXXXD:::::DD:::::DXXXXXD:::::DO:::::OXXXXXO:::::OXXXXXXXSSSSSS::::SXX |   |  -->
+<!--  |   | XM::::::MXXXXM:::::MXXXXM::::::MXXR::::RXXXXXR:::::RXXD:::::DXXXXXD:::::DD:::::DXXXXXD:::::DO:::::OXXXXXO:::::OXXXXXXXXXXXXS:::::SX |   |  -->
+<!--  |   | XM::::::MXXXXXMMMMMXXXXXM::::::MXXR::::RXXXXXR:::::RXXD:::::DXXXXD:::::DXD:::::DXXXXD:::::DXO::::::OXXXO::::::OXXXXXXXXXXXXS:::::SX |   |  -->
+<!--  |   | XM::::::MXXXXXXXXXXXXXXXM::::::MRR:::::RXXXXXR:::::RDDD:::::DDDDD:::::DDDD:::::DDDDD:::::DXXO:::::::OOO:::::::OSSSSSSSXXXXXS:::::SX |   |  -->
+<!--  |   | XM::::::MXXXXXXXXXXXXXXXM::::::MR::::::RXXXXXR:::::RD:::::::::::::::DDXD:::::::::::::::DDXXXXOO:::::::::::::OOXS::::::SSSSSS:::::SX |   |  -->
+<!--  |   | XM::::::MXXXXXXXXXXXXXXXM::::::MR::::::RXXXXXR:::::RD::::::::::::DDDXXXD::::::::::::DDDXXXXXXXXOO:::::::::OOXXXS:::::::::::::::SSXX |   |  -->
+<!--  |   | XMMMMMMMMXXXXXXXXXXXXXXXMMMMMMMMRRRRRRRRXXXXXRRRRRRRDDDDDDDDDDDDDXXXXXXDDDDDDDDDDDDDXXXXXXXXXXXXXOOOOOOOOOXXXXXXSSSSSSSSSSSSSSSXXXX |   |  -->
+<!--  |   | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |   |  -->
+<!--  |   | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |   |  -->
+<!--  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___|  -->
+<!-- (_____)                                                                                                      Developed by WHITEDHACKER    (_____) -->
+                                                                                                https://github.com/WHITEDH4CKER/DDOS-ATTACK
+{Style.RESET_ALL}
+"""
+
+def main():
+    os.system('clear')
+    print(logo)
+    print()
+
+if __name__ == "__main__":
+    main()
+import os
+import sys
+import time
+
+if os.name == 'posix':
+    c = os.system('which pip')
+    print("[+] pip is correctly installed")
+    if c == 256:
+        print("[+] Installing pip installer")
+        os.system('sudo yum install python-pip')
+    else:
+        pass
+else:
+    print('[+] Installing your pip installer')
+
+try:
+    import requests
+    from termcolor import colored, cprint
+    import colorama
+    colorama.init()
+except ImportError:
+    try:
+        if os.name == 'posix':
+            os.system('sudo pip install colorama termcolor requests')
+            sys.exit('[+] DDOS-ATTACKER has installed the necessary modules to execute the program')
+        elif os.name == 'nt':
+            os.system('c:\python27\scripts\pip.exe install colorama requests termcolor')
+            sys.exit('[+] DDOS-ATTACKER has installed the necessary modules to execute the program')
+        else:
+            sys.exit('[+] Download and install all necessary modules')
+    except Exception as e:
+        print('[-]', e)
+
+if os.name == 'nt':
+    colorama.init()
+
