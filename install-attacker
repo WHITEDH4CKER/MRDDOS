@@ -11,33 +11,20 @@ B = Style.BRIGHT  # Use colorama's Style.BRIGHT for bold formatting
 
 logo = f"""
 {B}{C}     
-
-<!--  _____                                                                                                                                     _____  -->
-<!-- ( ___ )                                                                                                                                   ( ___ ) -->
-<!--  |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   |  -->
-<!--  |   | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |   |  -->
-<!--  |   | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |   |  -->
-<!--  |   | XMMMMMMMMXXXXXXXXXXXXXXXMMMMMMMMRRRRRRRRRRRRRRRRRXXXDDDDDDDDDDDDDXXXXXXDDDDDDDDDDDDDXXXXXXXXXXXXXOOOOOOOOOXXXXXXXXSSSSSSSSSSSSSSSXX |   |  -->
-<!--  |   | XM:::::::MXXXXXXXXXXXXXM:::::::MR::::::::::::::::RXXD::::::::::::DDDXXXD::::::::::::DDDXXXXXXXXOO:::::::::OOXXXXSS:::::::::::::::SX |   |  -->
-<!--  |   | XM::::::::MXXXXXXXXXXXM::::::::MR::::::RRRRRR:::::RXD:::::::::::::::DDXD:::::::::::::::DDXXXXOO:::::::::::::OOXS:::::SSSSSS::::::SX |   |  -->
-<!--  |   | XM:::::::::MXXXXXXXXXM:::::::::MRR:::::RXXXXXR:::::RDDD:::::DDDDD:::::DDDD:::::DDDDD:::::DXXO:::::::OOO:::::::OS:::::SXXXXXSSSSSSSX |   |  -->
-<!--  |   | XM::::::::::MXXXXXXXM::::::::::MXXR::::RXXXXXR:::::RXXD:::::DXXXXD:::::DXD:::::DXXXXD:::::DXO::::::OXXXO::::::OS:::::SXXXXXXXXXXXXX |   |  -->
-<!--  |   | XM:::::::::::MXXXXXM:::::::::::MXXR::::RXXXXXR:::::RXXD:::::DXXXXXD:::::DD:::::DXXXXXD:::::DO:::::OXXXXXO:::::OS:::::SXXXXXXXXXXXXX |   |  -->
-<!--  |   | XM:::::::M::::MXXXM::::M:::::::MXXR::::RRRRRR:::::RXXXD:::::DXXXXXD:::::DD:::::DXXXXXD:::::DO:::::OXXXXXO:::::OXS::::SSSSXXXXXXXXXX |   |  -->
-<!--  |   | XM::::::MXM::::MXM::::MXM::::::MXXR:::::::::::::RRXXXXD:::::DXXXXXD:::::DD:::::DXXXXXD:::::DO:::::OXXXXXO:::::OXXSS::::::SSSSSXXXXX |   |  -->
-<!--  |   | XM::::::MXXM::::M::::MXXM::::::MXXR::::RRRRRR:::::RXXXD:::::DXXXXXD:::::DD:::::DXXXXXD:::::DO:::::OXXXXXO:::::OXXXXSSS::::::::SSXXX |   |  -->
-<!--  |   | XM::::::MXXXM:::::::MXXXM::::::MXXR::::RXXXXXR:::::RXXD:::::DXXXXXD:::::DD:::::DXXXXXD:::::DO:::::OXXXXXO:::::OXXXXXXXSSSSSS::::SXX |   |  -->
-<!--  |   | XM::::::MXXXXM:::::MXXXXM::::::MXXR::::RXXXXXR:::::RXXD:::::DXXXXXD:::::DD:::::DXXXXXD:::::DO:::::OXXXXXO:::::OXXXXXXXXXXXXS:::::SX |   |  -->
-<!--  |   | XM::::::MXXXXXMMMMMXXXXXM::::::MXXR::::RXXXXXR:::::RXXD:::::DXXXXD:::::DXD:::::DXXXXD:::::DXO::::::OXXXO::::::OXXXXXXXXXXXXS:::::SX |   |  -->
-<!--  |   | XM::::::MXXXXXXXXXXXXXXXM::::::MRR:::::RXXXXXR:::::RDDD:::::DDDDD:::::DDDD:::::DDDDD:::::DXXO:::::::OOO:::::::OSSSSSSSXXXXXS:::::SX |   |  -->
-<!--  |   | XM::::::MXXXXXXXXXXXXXXXM::::::MR::::::RXXXXXR:::::RD:::::::::::::::DDXD:::::::::::::::DDXXXXOO:::::::::::::OOXS::::::SSSSSS:::::SX |   |  -->
-<!--  |   | XM::::::MXXXXXXXXXXXXXXXM::::::MR::::::RXXXXXR:::::RD::::::::::::DDDXXXD::::::::::::DDDXXXXXXXXOO:::::::::OOXXXS:::::::::::::::SSXX |   |  -->
-<!--  |   | XMMMMMMMMXXXXXXXXXXXXXXXMMMMMMMMRRRRRRRRXXXXXRRRRRRRDDDDDDDDDDDDDXXXXXXDDDDDDDDDDDDDXXXXXXXXXXXXXOOOOOOOOOXXXXXXSSSSSSSSSSSSSSSXXXX |   |  -->
-<!--  |   | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |   |  -->
-<!--  |   | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |   |  -->
-<!--  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___|  -->
-<!-- (_____)                                                                                                      Developed by WHITEDHACKER    (_____) -->
-                                                                                                https://github.com/WHITEDH4CKER/DDOS-ATTACK
+<!--  _____                                           _____  -->
+<!-- ( ___ )                                         ( ___ ) -->
+<!--  |   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|   |  -->
+<!--  |   |     *     (    (     (         )   (      |   |  -->
+<!--  |   |   (  `    )\ ) )\ )  )\ )   ( /(   )\ )   |   |  -->
+<!--  |   |   )\))(  (()/((()/( (()/(   )\()) (()/(   |   |  -->
+<!--  |   |  ((_)()\  /(_))/(_)) /(_)) ((_)\   /(_))  |   |  -->
+<!--  |   |  (_()((_)(_)) (_))_ (_))_    ((_) (_))    |   |  -->
+<!--  |   |  |  \/  || _ \ |   \ |   \  / _ \ / __|   |   |  -->
+<!--  |   |  | |\/| ||   / | |) || |) || (_) |\__ \   |   |  -->
+<!--  |   |  |_|  |_||_|_\ |___/ |___/  \___/ |___/   |   |  -->
+<!--  |___|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|___|  -->
+<!-- (_____)               Developed by WHITEDHACKER (_____) -->  
+           https://github.com/WHITEDH4CKER/DDOS-ATTACK
 {Style.RESET_ALL}
 """
 
