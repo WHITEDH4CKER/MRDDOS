@@ -9,7 +9,7 @@
 ***
 
 ## INSTALLATION:
-   #### ➡️use the following commands for Linux:
+#### ➡️ Type the following commands To use FB-BRUTEFORCE in Linux:
 
 ```shell script
 sudo apt update && apt upgrade
@@ -74,7 +74,7 @@ Example:
     python MRDDOS_2.py -d www.example.com -p 80 -T 2000 -Pyslow
 ```
 
-#### ➡️use the following commands for Termux:
+#### ➡️ Type the following commands To use FB-BRUTEFORCE in Termux:
 
 ```shell script
 pkg update && pkg upgrade -y
